@@ -1,0 +1,16 @@
+/* 768px-481px */
+/* header */
+@media (max-width: 745px) {
+    header {
+        padding-inline: 24px;
+    }
+}
+@media (max-width: 577px) {
+    .header_navigation, .action {
+        display: none;
+    }
+    .burger_icon {
+        display: inline-flex;
+    }
+
+}
