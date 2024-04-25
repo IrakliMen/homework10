@@ -29,3 +29,9 @@
         line-height: 22px;      
     }
 }
+/* footer */
+@media (max-width: 376px) {
+    footer {
+        align-items: center;
+    }
+}

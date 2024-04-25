@@ -172,5 +172,49 @@ h2, .cover_button {
 .card_title, .card_text {
     font-family: "Inter", sans-serif;
 }
+/* footer */
+footer {
+    padding: 96px 150px;
+    justify-content: space-between;
+    align-items: top;
+    background-color: #000000;
+}
+footer, .footer_nav {
+    display: flex;
+}
+.footer_nav {
+    column-gap: 80px;
+}
+.footer_title {
+    font-size: 24.65px;
+    font-weight: 900;
+    line-height: 26.41px;
+    letter-spacing: -0.44023728370666504px;
+}
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+}
+.footer_title, h5, .footer_a {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+}
+.footer_a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+h5 {
+    margin-bottom: 16px;
+}
+.footer_li {
+    margin-bottom: 8px;
+}
+.last_li {
+    margin-bottom: 0;
+}
 
 
