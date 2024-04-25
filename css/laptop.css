@@ -4,4 +4,39 @@
     header {
         padding-inline: 32px;
     }
+    /* section 1 (cover) */
+    .cover {
+        padding-inline: 66px;
+    }
+}
+/* section2 (article)  */
+@media (max-width: 1151px) {
+    .section2 {
+        padding-inline: 32px;
+    }
+}
+
+/* section2 (article) */
+
+@media (max-width: 1025px) {
+    .section2 {
+        flex-wrap: wrap;
+        padding: 32px;
+        row-gap: 40px;
+    }
+    .img_container {
+        height: 480px;
+    }
+    .article_text {
+        display: flex;
+        flex-direction: row;
+        column-gap: 76px;
+        align-items: top;
+    }
+    .article_title, .text {
+        flex: 1 1 440px
+    }
+    .article_title {
+        margin: 0;
+    }
 }

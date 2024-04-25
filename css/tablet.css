@@ -4,6 +4,10 @@
     header {
         padding-inline: 24px;
     }
+    /* section 1 (cover) */
+    .cover {
+        height: 320px;
+    } 
 }
 @media (max-width: 577px) {
     .header_navigation, .action {
@@ -12,5 +16,38 @@
     .burger_icon {
         display: inline-flex;
     }
+}
+@media (max-width: 745px) {
 
+    /* section 1 (cover) */
+    .cover {
+        height: 320px;
+        padding-inline: 85px;
+    }
+}
+@media (max-width: 745px) {
+
+    h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
+
+/* section2 (article) */
+
+@media (max-width: 745px) {
+    .section2 {
+        padding: 24px;
+    }
+    .img_container {
+        height: 320px;
+    }
+    .article_text {
+        flex-direction: column;
+        row-gap: 20px;
+        text-align: center;
+    }
+    .article_title, .text {
+        flex: 1 1 100%;
+    }
 }

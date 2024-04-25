@@ -1,2 +1,31 @@
 /* 480px-320px */
-/* header */
+/* section1 (cover) */
+@media (max-width: 426px) {
+    h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+@media (max-width: 376px) {
+    .cover {
+        height: 240px;
+        padding-inline: 24px;
+    }
+}
+/* section2 (article) */
+@media (max-width: 376px) {
+    .section2 {
+        row-gap: 32px;
+    }
+    .img_container {
+        height: 240px;
+    }
+    .article_title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .text {
+        font-size: 14px;
+        line-height: 22px;      
+    }
+}
